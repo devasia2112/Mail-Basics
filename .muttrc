@@ -1,0 +1,4 @@
+# create shortcuts to your accounts
+macro index <f4> '<sync-mailbox><enter-command>source ~/.mutt/account.gmail.com<enter><change-folder>!<enter>'
+macro index <f5> '<sync-mailbox><enter-command>source ~/.mutt/account.yourowndomain.tld<enter><change-folder>!<enter>'
+auto_view text/html
